@@ -29,9 +29,9 @@ describe('Pruebas para la Calculadora', () => {
     
     // 'expect()' es la función de aserción de Jest.
     // .toBe() es un "comparador" (matcher) que usa === (igualdad estricta).
-    expect(multiplicar(2, 2)).toBe(4);
-    expect(multiplicar(10, -5)).toBe(-50);
-    expect(multiplicar(0, 0)).toBe(0);
+    expect(multiplicacion(2, 2)).toBe(4);
+    expect(multiplicacion(10, -5)).toBe(-50);
+    expect(multiplicacion(0, 0)).toBe(0);
   });
 
 });
